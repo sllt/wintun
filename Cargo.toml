@@ -33,3 +33,7 @@ winapi = { version = "0.3", features = ["netioapi", "iptypes", "iphlpapi", "nlde
 packet = "0.1.4"
 pcap-file = "1.1.1"
 subprocess = "0.2.7"
+
+[build-dependencies]
+bindgen = "0.61.0"
+
